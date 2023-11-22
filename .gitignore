@@ -1,0 +1,9 @@
+# Files to ignore
+*.csproj
+*.user
+
+# Folders to ignore
+.vs/
+obj/
+bin/
+Migrations/
