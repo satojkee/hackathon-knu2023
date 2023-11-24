@@ -41,8 +41,6 @@ namespace Hackathon.Utils
                     _hashAlgorithmName, 
                     keySize);
 
-                Console.WriteLine(passwordHash, Convert.ToBase64String(ipHash));
-
                 return CryptographicOperations.FixedTimeEquals(pHash, ipHash);
             }
             catch (Exception)
